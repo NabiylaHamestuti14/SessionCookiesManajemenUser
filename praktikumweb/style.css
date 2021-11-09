@@ -1,0 +1,55 @@
+/*pengaturan pada body/keseluruhan tampilan*/
+body{
+     background-image: url('bg.jpg');
+}
+/*pengaturan logo/gambar*/
+#logo{
+    width: 10%;
+    margin:auto;
+}
+/*pengaturan container*/
+#container{
+    font-family: verdana;
+    width: 200px;
+    height: 350px;
+    background: white;
+    margin:100px auto;
+    padding: 40px 40px;
+    border-radius: 8px;
+}
+/*pengaturan pada label username dan password*/
+input[type=text],
+input[type=Password]{
+    font-family: verdana;
+    font-size: 16px;
+    width: 100%;
+    padding: 7px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-size: 28px;
+    background-position: 6px 6px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+input[type=text]{
+    background-image: url('user.png');
+}
+input[type=Password]{
+    background-image: url('psw.png');
+}
+        
+input[type=text]:focus,
+input[type=Password]:focus {
+}
+/*pengaturan pada button*/
+input[type=submit]{
+    font-size: 15px;
+    background: #CD5C5C;
+    color: white;
+    border-radius: 20px;
+    padding: 12px 55px;
+    cursor:pointer;
+    margin-top: 30px;
+}
